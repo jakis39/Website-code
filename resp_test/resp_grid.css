@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* fix the fucking box model */
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+
+.example{margin:0.6em;background-color:#99CCFF;border-radius:0.5em;border:1px solid #3399FF;}
+.example p{padding:0.3em 1em;}
+
+/* Basic grid class */
+.grid_1_of_3{width:33.33%;float:left;}
+.grid_1_of_3:nth-child(3n-2){clear:both;}
+
+/* terblet */
+@media only screen and (max-width:1000px){
+	.grid_1_of_3{width:50%}
+	.grid_1_of_3:nth-child(3n-2){clear:none;}
+	.grid_1_of_3:nth-child(2n-1){clear:both;}
+}
+
+/* Phone */
+@media only screen and (max-width:768px){
+	.grid_1_of_3{width:100%}
+	.grid_1_of_3:nth-child(3n-2){clear:none;}
+	.grid_1_of_3:nth-child(2n-1){clear:none;}
+}

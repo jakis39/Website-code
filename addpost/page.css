@@ -1,0 +1,11 @@
+.addpost_login_form{width:auto;max-width:13em;margin:1em auto;}
+.addpost_form{width:90%;margin:1em auto;}
+.addpost_label{clear:both;float:left;margin-top:0.3em;margin-bottom:0.2em;}
+.addpost_input{clear:both;float:left;font-family:'Open Sans', sans-serif;font-size:1em;width:100%;margin:0;}
+.addpost_button{margin-top: 1em;}
+.validate.addpost{width:100%;}
+.addpost_success{margin:4em auto;}
+.addpost_fail{margin-top:0.5em;margin-bottom:0.5em;}
+.addpost_input.login{width:auto;}
+.login_button{clear:both;float:left;}
+.badlogin{clear:both;float:left;color:red;}

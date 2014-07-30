@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:100%
+}
+.padding05{padding:0.5em;}
+.wysiwyg{
+	margin:auto;
+}
+.main_content{
+	margin:auto;
+}
+.editor_frame{
+	border: 1px solid black;
+	width: 100%;
+	min-height:20em;
+}
+.control_bar{
+	background-color: #dddddd;
+	border: 1px solid black;
+	border-bottom: 0;
+	padding:0;
+	width:100%;
+	min-height: 2.2em;
+}
+.control_bar ul{
+	padding: 0;
+	margin:0;
+	overflow: hidden;
+	float:left;
+}
+.control_bar select{
+	float:left;
+	border:0;
+	margin:0.5em 0.7em;
+}
+.control_bar select:hover{
+	border:0;
+}
+.control_bar select:focus{
+	border:0;
+}
+.control_bar ul li{
+	float:left;
+	margin:0;
+	height:100%;
+}
+.control_bar button.data_icon{
+	font-size: 0.9em;
+	padding:0.5em 1em;
+	margin:0;
+	border:none;
+	color: #333333;
+	line-height: 150%
+}
+.control_bar ul li:hover{
+	background-color: #bbbbbb;
+}
+.control_bar ul li:first-child:hover{
+	background-color: #dddddd;
+}
+#html_button{
+	font-size: 0.9em;
+	padding:0.5em 0.7em;
+	margin:0;
+	border:none;
+	color: #333333;
+	line-height: 150%
+}
+#html_button:hover{
+	border:0;
+	border-radius: 0;
+	background-color: #bbbbbb;
+}
+.popover_textbox{
+	width:100%;
+	margin-bottom: 1em;
+}
+.popover_img_dim{
+	width:4em;
+}
+table{
+	border-collapse:collapse;
+	line-height:100%;
+	font-size:100%;
+	font-weight:normal;
+}
+table,th,td{
+	border:1px solid black;
+}
+th{
+	font-weight:bold;
+}
+th,td{
+	height:2em;
+	width:5em;
+	padding:0.3em;
+}
